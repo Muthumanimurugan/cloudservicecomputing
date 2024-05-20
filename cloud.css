@@ -1156,7 +1156,8 @@ text-align: left;
     height: 3px;
     border-radius: 5px;
     background-color: #2CA068;
-    margin-top: 30px !important;
+
+    margin-top:30px !important;
 }
 
 
@@ -2133,12 +2134,13 @@ margin-top: 40px!important;
 .expertise-business-adaptable-head::after {
   content: "";
   position: absolute;
-  top: 51%;
+
   margin-left: 15px;
   width: 54px;
   height: 4px;
   border-radius: 5px;
   background-color: #2CA068;
+
 }
 
 
@@ -2314,6 +2316,7 @@ text-align: left;
         height: 4px;
         border-radius: 5px;
         background-color: #2CA068;
+        margin-top: 5px !important;
     }
     .expertise-image-container2{
       justify-content: left;
@@ -4227,6 +4230,7 @@ margin-top: -20px !important;
 .appdeveightheading{
   margin-bottom: 40px !important;
 }
+
 .appdeveight{
   margin: 0 auto;
   top: 5326px;
@@ -4378,6 +4382,7 @@ text-align: left;
   .imges_check1{
       display: block !important;
   }
+
 
 
  
