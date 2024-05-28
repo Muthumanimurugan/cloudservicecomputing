@@ -1162,17 +1162,17 @@ color: #000;
   
   }
   
-  .expertise-business-adaptable-head::after {
+  /* .expertise-business-adaptable-head::after {
     content: "";
     position: absolute;
-    top: 51%;
+    top: 50%;
     margin-left: 15px;
     width: 54px;
     height: 4px;
     border-radius: 5px;
     background-color: #2CA068;
     margin-top: 30px !important;
-}
+} */
 
 .expertise-businness-heading{
  
@@ -1190,8 +1190,11 @@ color: #676968 !important;
   position: relative;
   margin-top: 100px;
 }
+.Adaptable{
+  position: relative;
+}
 
-.expertise-business-adaptable-head::after {
+.Adaptable::after {
   content: "";
   position: absolute;
   top: 51%;
@@ -1387,13 +1390,13 @@ text-align: left;
           text-align: left;
           
         color: #2CA068;
-        
+        position: relative;
         }
         
-        .expertise-business-adaptable-head::after {
+        .Adaptable::after {
           content: "";
           position: absolute;
-       
+          top: 50% !important;
           margin-left: 15px;
           width: 28px;
           height: 3px;
@@ -1492,12 +1495,12 @@ text-align: left;
 }
 
 @media (max-width: 425px) {
-  .expertise-business-adaptable-head::after {
+  /* .expertise-business-adaptable-head::after {
       top: 86%;
       margin-left: 15px;
       width: 28px;
       height: 3px;
-  }
+  } */
 
   .single-line {
       margin-top: -14px !important;
@@ -1518,9 +1521,9 @@ text-align: left;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .expertise-business-adaptable-head::after {
+  /* .expertise-business-adaptable-head::after {
       top: 75%;
-  }
+  } */
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -1570,7 +1573,7 @@ text-align: left;
 @media (min-width: 425px) and (max-width: 767px){
     
  
-    .expertise-business-adaptable-head::after {
+    /* .expertise-business-adaptable-head::after {
       content: "";
       position: absolute;
    
@@ -1581,12 +1584,12 @@ text-align: left;
       background-color: #2CA068;
      margin-top: -4px !important;
 
-}
+} */
 
 }
 @media (min-width:321px) and (max-width:375px){
   
-  .expertise-business-adaptable-head::after {
+  /* .expertise-business-adaptable-head::after {
     content: "";
     position: absolute;
  
@@ -1596,7 +1599,7 @@ text-align: left;
     border-radius: 5px;
   margin-top: -5px !important;
  
-}
+} */
 
 }
 
@@ -2330,8 +2333,9 @@ text-align: left;
 
 
   }
-  .expertise-business-Computing{
+  /* .expertise-business-Computing{
     position: relative;
+    background-color: red;
   }
   .expertise-business-Computing::after {
     content: "";
@@ -2342,7 +2346,32 @@ text-align: left;
     border-radius: 5px;
     background-color: #2CA068;
     top:50% !important;
-  }
+  } */
+  .expertise-business-Computing {
+    position: relative;
+}
+
+.expertise-business-Computing::after {
+    content: "";
+    position: absolute;
+    margin-left: 15px;
+    width: 54px;
+    height: 4px;
+    border-radius: 5px;
+    background-color: #2CA068;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .expertise-business-Computing::after {
+        width: 28px;
+        height: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
   
   .expertise-businness-heading2 {
     margin-top: 40px !important;
@@ -2517,7 +2546,7 @@ margin-top: 30px !important;
   
   
     }
-    .expertise-business-Computing{
+    /* .expertise-business-Computing{
       position: relative;
     }
     .expertise-business-Computing::after {
@@ -2528,8 +2557,8 @@ margin-top: 30px !important;
       height: 3px;
       border-radius: 5px;
       background-color: #2CA068;
-      top: 50%;
-    }
+      margin-top: 50% !important;
+    } */
     
     .emergingTrend-column2-image1{
       display:block !important;
@@ -2641,7 +2670,7 @@ margin-top: -5px !important;
     .section-4-button a {
       margin-left: 30px;
     }
-    .expertise-business-Computing{
+    /* .expertise-business-Computing{
       position: relative;
     }
     .expertise-business-Computing::after {
@@ -2654,12 +2683,12 @@ margin-top: -5px !important;
       background-color: #2CA068;
       top: 50% !important;
       margin-top: 20px !important;
-    }
+    } */
   }
   
   @media (min-width: 425px) and (max-width: 767px) {
 
-    .expertise-business-Computing{
+    /* .expertise-business-Computing{
       position: relative;
     }
     .expertise-business-Computing::after {
@@ -2672,7 +2701,7 @@ margin-top: -5px !important;
       background-color: #2CA068;
       top: 50% !important;
       margin-top: 20px !important;
-    }
+    } */
   }
 
 
