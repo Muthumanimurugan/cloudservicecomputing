@@ -461,12 +461,14 @@ margin-top: 15px !important;
     font-weight: 600;
     line-height: 25.14px;
     text-align: left;
-    color: #ffffff !important;
-    background-color: #2CA068 !important;
+    color: #000000 !important;
+    /* color: #ffffff !important;
+    background-color: #2CA068 !important; */
 
     
     
     }
+    
     
     .accordion-button[aria-expanded="false"] {
      
@@ -1763,6 +1765,7 @@ color: #000000 !important;
   width: 54px;
   height: 3px;
   border-radius: 50px;
+  margin-left: 10px;
 }
 .News-and-Blogs-technologycol{
   margin: 10px auto;
@@ -4295,5 +4298,5 @@ margin-top: -3px !important;
 }
 
 
-
+ /* 8 section */
 
